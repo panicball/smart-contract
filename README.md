@@ -37,7 +37,9 @@ Note: before the migration of the contract to the blockchain, we need to have a 
 8. Run the program code using (start a local server)
    <br /> `npm run dev` 
 
-After all these steps the local server will launch and automatically open a new browser tab containing the dapp that will display the "Bike shop" page with all the rental bikes.
+### The program works in the following steps:
+
+After following installation instruction steps the local server will launch and automatically open a new browser tab containing the dapp that will display the "Bike shop" page with all the rental bikes.
 * When the dapp is displayed a "MetaMask" page will apear asking you to connect it to the dapp. After you do that you can functionate in the dapp. 
 * When you choose the bike you want to rent - click on the button rent and the MetaMask page will apear asking you to confirm the rent.
 * After the confirmation of the rental - the bike is rented

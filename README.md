@@ -46,3 +46,7 @@ After following installation instruction steps the local server will launch and 
     * it will be outtaken from the rental option
     * a transaction will be excecuted - this outcome is visible in the "MetaMask" section "Activity"
     
+
+## Logic of the smart contract business model 
+
+Business logic consists of three parts. The physical business model consists of two participants - the renter, a person that is in theoretical level a client, and a bike shop, a part that represents the other end of the business model as the service provider. The written smart ontract is the essential middle man in the bussines logic which  enables the bike rental process. Smart contract ensures that the persen (renter) can rent a bike from a bike shop.

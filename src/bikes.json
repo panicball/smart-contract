@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "Joco Ronde Van Europa",
+    "picture": "images/1.jpeg",
+    "years": 1956,
+    "type": "Classic Track Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 1,
+    "name": "Kestrel 4000",
+    "picture": "images/2.jpeg",
+    "years": 1986,
+    "type": "Road Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 2,
+    "name": "Benotto Modelo 3000",
+    "picture": "images/3.jpeg",
+    "years": 1990,
+    "type": "Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 3,
+    "name": "Nishiki Arrow Speed",
+    "picture": "images/4.jpg",
+    "years": 1980,
+    "type": "Road Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 4,
+    "name": "Martinetto",
+    "picture": "images/5.jpg",
+    "years": 1980,
+    "type": "Road Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 5,
+    "name": "Legnano Falck",
+    "picture": "images/6.jpg",
+    "years": 1985,
+    "type": "Road Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 6,
+    "name": "Bernard Macklam",
+    "picture": "images/7.jpg",
+    "years": 1970,
+    "type": "Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 7,
+    "name": "Banesto Columbus Cromor",
+    "picture": "images/8.jpg",
+    "years": 1994,
+    "type": "Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 8,
+    "name": "Lexpres",
+    "picture": "images/9.jpg",
+    "years": 1969,
+    "type": "Track Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 9,
+    "name": "Schwinn Series 7 PDG",
+    "picture": "images/10.jpg",
+    "years": 1992,
+    "type": "Time Trial Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 10,
+    "name": "L'Eroica Retro",
+    "picture": "images/11.jpg",
+    "years": 1983,
+    "type": "Racing Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 11,
+    "name": "Cannondale M200SE",
+    "picture": "images/12.jpg",
+    "years": 1996,
+    "type": "Moutain Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 12,
+    "name": "Colnago Nuovo Mexico",
+    "picture": "images/13.jpg",
+    "years": 1982,
+    "type": "Road Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 13,
+    "name": "Zoon Model Triathlon",
+    "picture": "images/14.jpg",
+    "years": 1981,
+    "type": "Aero Race Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 14,
+    "name": "Masi Prestige",
+    "picture": "images/15.jpeg",
+    "years": 1975,
+    "type": "Road Bike",
+    "location": "London, England"
+  },
+  {
+    "id": 15,
+    "name": "Peugeot PL40",
+    "picture": "images/16.jpeg",
+    "years": 1954,
+    "type": "Touring Bike",
+    "location": "London, England"
+  }
+]

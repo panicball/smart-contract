@@ -60,9 +60,6 @@ Business logic consists of three parts. The physical business model consists of 
 Written smart contract was tested in these networks:
 * Local network - tested using Ganache, a personal blockchain for Ethereum development (locally running blockchain on port 7545)
 * Ropsten testnet - tested using <br />[Infura](https://infura.io/). Infura allowed to migrate an existing dapp to an Ethereum network Ropsten. In order to test writte program on Ropsten testnet:
-   * Install HDWalletProvider <br /> `npm install @truffle/hdwallet-provider` 
-   * Register to Infura, then create a new project, which will in turn generate a new Project ID
-   * In file  *truffle-config.js* change the mnemonic and in given link → "https://ropsten.infura.io/v3/<INFURA_PROJECT_ID>", change the number part into your own by Infura generated Project ID
    * Get few test ethers from one of the following
       * https://faucet.metamask.io/
       * https://faucet.dimensions.network/

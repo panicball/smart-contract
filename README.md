@@ -1,7 +1,7 @@
 # smart-contract
 
 Written program enables a smart contract that is implemented in Solidyti programming language. The smart contract has
-been adapted to the Ethereum blockchain network.
+been adapted to the Ethereum blockchain network. Implemented Smart Contract is dedicated to bike rental process.
 
 ## Installation instructions
 To run the program code you need:
@@ -49,4 +49,8 @@ After following installation instruction steps the local server will launch and 
 
 ## Logic of the smart contract business model 
 
-Business logic consists of three parts. The physical business model consists of two participants - the renter, a person that is in theoretical level a client, and a bike shop, a part that represents the other end of the business model as the service provider. The written smart ontract is the essential middle man in the bussines logic which  enables the bike rental process. Smart contract ensures that the persen (renter) can rent a bike from a bike shop.
+Business logic consists of three parts. The physical business model consists of two participants - the renter, a person that is in theoretical level a client, and a bike shop, a part that represents the other end of the business model as the service provider. The written smart ontract is the essential middle man in the bussines logic which enables the bike rental process. Smart contract ensures that the person (a renter) can rent a bike from a bike shop by securing a "safe" and "reliable" operation in a decentralized public network. Written smart contract is enabled through a minimalist design front-end. It ensures functionality of a application that simply interacts with business model participants and allows activation of smart contract functions - submission / scanning the data required for the contract. Execution of rent process is treated as a transaction by sending an account address. 
+
+* Transactions require a "from" address and have an associated cost. This cost, paid in ether, is called gas. The gas cost is the fee for storing data in a smart contract. The transaction is send by executing the rent() function with both the bike ID and an object containing the account address.
+
+

@@ -54,10 +54,33 @@ Business logic consists of three parts. The physical business model consists of 
 * Transactions require a "from" address and have an associated cost. This cost, paid in ether, is called gas. The gas cost is the fee for storing data in a smart contract. The transaction is send by executing the rent() function with both the bike ID and an object containing the account address.
 
 ## Sequence diagram (successful bike rental process)
-![Sequence diagram](/png/rent.png)
+![Sequence diagram](/png/bike.png)
 
 ## Smart Contract testing
 Written smart contract was tested in these networks:
-* Local network - 
-* 
-* 
+* Local network - tested using Ganache, a personal blockchain for Ethereum development (locally running blockchain on port 7545)
+* Ropsten testnet - tested using <br />[Infura](https://infura.io/). Infura allowed to migrate an existing dapp to an Ethereum network Ropsten. In order to test writte program on Ropsten testnet:
+   * Install HDWalletProvider <br /> `npm install @truffle/hdwallet-provider` 
+   * Register to Infura, then create a new project, which will in turn generate a new Project ID
+   * In file  *truffle-config.js* change the mnemonic and in given link → "https://ropsten.infura.io/v3/<INFURA_PROJECT_ID>", change the number part into your own by Infura generated Project ID
+   * Get few test ethers from one of the following
+      * https://faucet.metamask.io/
+      * https://faucet.dimensions.network/
+      * https://faucet.kyber.network/
+   * Compile and run the code
+      * <br /> `truffle compile`
+      * <br /> `truffle migrate --network ropsten`
+ 
+ Aftel all these steps use the program as described above.
+ When testing in local and Ropsten testnets, not only a smart contract was tested but also the whole decentralised application (tested performing action from front-end).
+
+* Kovan testnet - tested using <br />[Remix](https://remix.ethereum.org/)
+   * upload the smart contract (just the smart contract file - Sales.sol)
+   * compile the code
+   * change the environment from JavaScript VM to Injected Web3
+   * add your MetaMask account address
+   * get few test ethers from the following
+      * https://gitter.im/kovan-testnet/faucet#
+   * deploy the smart contract (you will see a change in Kovan balance)
+      
+ When testing in Kovan testnet, only a smart contract was tested (tested without performing actions from front-end).

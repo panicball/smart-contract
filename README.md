@@ -55,3 +55,9 @@ Business logic consists of three parts. The physical business model consists of 
 
 ## Sequence diagram (successful bike rental process)
 ![Sequence diagram](/png/rent.png)
+
+## Smart Contract testing
+Written smart contract was tested in these networks:
+* Local network - 
+* 
+* 

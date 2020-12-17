@@ -53,4 +53,5 @@ Business logic consists of three parts. The physical business model consists of 
 
 * Transactions require a "from" address and have an associated cost. This cost, paid in ether, is called gas. The gas cost is the fee for storing data in a smart contract. The transaction is send by executing the rent() function with both the bike ID and an object containing the account address.
 
-
+## Sequence diagram (successful bike rental process)
+![Sequence diagram](/png/rent.png)
